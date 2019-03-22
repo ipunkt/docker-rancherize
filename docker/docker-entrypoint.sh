@@ -25,8 +25,7 @@ if [ ! -z "$USER_ID" -a ! -z "$GROUP_ID" ] ; then
 fi
 
 if [ "$1" != "init" ] && type "$1" >/dev/null ; then
-	exec su-exec ${USER} "$@"
-	exit $?
+	exec su-exec ${USER} sh "$@"
 fi
 
 
