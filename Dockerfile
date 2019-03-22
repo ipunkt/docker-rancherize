@@ -52,5 +52,6 @@ RUN cd /opt/rancherize \
     && rm composer.phar
 
 COPY docker/plugin_path.php /opt/rancherize/vendor/ipunkt/rancherize/
+COPY docker/docker-entrypoint.sh /opt/docker-entrypoint.sh
 
-ENTRYPOINT ["/bin/sh", "/opt/rancherize/docker-entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "/opt/docker-entrypoint.sh"]
