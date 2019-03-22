@@ -40,7 +40,8 @@ RUN curl -sSL "https://github.com/rancher/rancher-compose/releases/download/v$RA
 RUN curl -sSL "https://releases.rancher.com/cli/v$RANCHER_CLI_VERSION/rancher-linux-amd64-v$RANCHER_CLI_VERSION.tar.gz" \
 	| tar xz \
 	&& mv rancher-v*/rancher /usr/local/bin/ \
-	&& cp /usr/local/bin/rancher /usr/local/bin/rancher-$RANCHER_CLI_VERSION
+	&& cp /usr/local/bin/rancher /usr/local/bin/rancher-$RANCHER_CLI_VERSION \
+	&& apk --no-cache add su-exec
 
 COPY ["docker", "/opt/rancherize"]
 WORKDIR /opt/rancherize
