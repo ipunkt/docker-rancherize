@@ -10,7 +10,8 @@
     "ipunkt/rancherize-php72": "^1.4.4",
     "ipunkt/rancherize-php73": "^1.0.1",
     "ipunkt/rancherize-php56": "^1.0.1",
-    "ipunkt/rancherize-mailhog": "^1.0.1"
+    "ipunkt/rancherize-mailhog": "^1.0.1",
+    "ipunkt/rancherize-rabbitmq": "^1.0.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
