@@ -12,7 +12,7 @@
     "ipunkt/rancherize-php56": "^1.0.1",
     "ipunkt/rancherize-mailhog": "^1.0.1",
     "ipunkt/rancherize-rabbitmq": "^1.0.0",
-    "ipunkt/rancherize-jaeger": "^1.1.1"
+    "ipunkt/rancherize-jaeger": "^1.1.2"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
