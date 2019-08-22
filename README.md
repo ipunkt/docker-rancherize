@@ -1,2 +1,2 @@
 # docker-rancherize
-Build for the rancherize docker container
+Build for the rancherize docker container.
