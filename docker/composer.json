@@ -1,18 +1,19 @@
 {
   "require": {
-    "ipunkt/rancherize": "^2.47.5",
+    "ipunkt/rancherize": "^2.48.0",
     "ipunkt/rancherize-backup-storagebox": "^1.0.1",
     "ipunkt/rancherize-ecr": "^1.0.0",
     "ipunkt/rancherize-publish-traefik-rancher": "^1.0.1",
     "ipunkt/rancherize-ftp": "^0.1.0",
-    "ipunkt/rancherize-blueprint-php-cli": "^2.1.1",
+    "ipunkt/rancherize-blueprint-php-cli": "^2.2.0",
     "ipunkt/rancherize-php53": "^1.5.1",
     "ipunkt/rancherize-php72": "^1.4.4",
     "ipunkt/rancherize-php73": "^1.0.1",
     "ipunkt/rancherize-php56": "^1.0.1",
     "ipunkt/rancherize-mailhog": "^1.0.1",
     "ipunkt/rancherize-rabbitmq": "^1.0.0",
-    "ipunkt/rancherize-jaeger": "^1.2.0"
+    "ipunkt/rancherize-jaeger": "^1.2.0",
+    "ipunkt/rancherize-drain": "^1.0.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
